@@ -7,11 +7,15 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "preview": "vite preview",
     "prepare": "husky",
     "test": "vitest",
     "coverage": "vitest run --coverage"
 
+  },
+  "eslintConfig": {
+    "extends":["react"]
   },
   "dependencies": {
     "react": "^18.3.1",
