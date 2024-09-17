@@ -1,8 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { TodoItem } from './components/TodoItem'
+import { TodoItem } from './components/TodoItem/index.jsx'
+import { TodoCounter } from './components/TodoCounter/index.jsx'
+
+import { TodoSearch } from './components/TodoSearch/index.jsx'
+
+import { TodoList } from './components/TodoList/index.jsx'
+
+import { CreateTodoButton } from './components/CreateTodoButton/index.jsx'
+
 
 function App() {
 
@@ -10,14 +16,18 @@ function App() {
 
   return (
     <>
-    <TodoCounter/>
+    <TodoCounter
+    todos={count}
+    />
     <TodoSearch/>
 
     <TodoList>
       <TodoItem/>
     </TodoList>
 
-    <CreateTodoButton/>
+    <CreateTodoButton
+    addTodo={setCount}
+    />
 
 
     </>
