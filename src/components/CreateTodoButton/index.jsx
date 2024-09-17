@@ -3,8 +3,8 @@ function CreateTodoButton(){
 
   return(
 <>
-
-    <button
+<div className='button-container'>
+<button
     className="primary-button"
     type="button"
 
@@ -15,6 +15,8 @@ function CreateTodoButton(){
 </svg>
 
     </button>
+</div>
+
 </>
 
   )

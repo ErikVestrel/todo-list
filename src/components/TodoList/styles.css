@@ -1,0 +1,8 @@
+.todos-container{
+  height: 70vh;
+  width: 100%;
+
+  overflow-y: scroll;
+  background: rgb(255,255,255);
+
+}
