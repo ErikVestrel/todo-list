@@ -1,0 +1,47 @@
+.todo-item{
+  width: 100%;
+  padding: 15px 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+
+  border: 1px solid black;
+  border-radius: 35px;
+  box-sizing: border-box;
+
+  span{
+    display: block;
+    width: 24px;
+    margin: 0 10px;
+    display: grid;
+    place-items: center;
+  }
+  p{
+    text-align: left;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
+  .check{
+    &&:hover{
+      color: green;
+    }
+    &&:active{
+      color:#085108;
+    }
+  }
+  .close{
+    &&:hover{
+      color: red;
+    }
+    &&:active{
+      color:#850000;
+    }
+
+  }
+
+}
+.checked{
+  text-decoration: line-through;
+}
+
