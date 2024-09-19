@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 9vh;
+  height: 90px;
   z-index: 2;
   background-color: transparent;
 background: linear-gradient(180deg, transparent 14%, rgba(88,88,88,1) 83%);

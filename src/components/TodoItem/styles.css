@@ -4,6 +4,7 @@
   padding: 15px 0;
   display: grid;
   grid-template-columns: auto 1fr auto;
+  align-items: center;
 
   border: 1px solid black;
   border-radius: 35px;
@@ -17,6 +18,7 @@
     place-items: center;
   }
   p{
+    vertical-align: center;
     text-align: left;
     white-space: normal;
     word-wrap: break-word;
