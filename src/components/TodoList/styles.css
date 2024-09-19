@@ -1,8 +1,12 @@
 .todos-container{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  gap: 8px;
   height: 70vh;
   width: 100%;
 
   overflow-y: scroll;
-  background: rgb(255,255,255);
+  background: #585858;
 
 }
