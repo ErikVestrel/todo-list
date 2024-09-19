@@ -21,7 +21,7 @@ background: linear-gradient(180deg, transparent 14%, rgba(88,88,88,1) 83%);
 
   border-radius: 60px;
   border: none;
-  background-color: #c5c5c5;
+  background-color: var(--primary-color);
 
   transition: box-shadow 400ms ease;
   transition: transform 400ms ease;

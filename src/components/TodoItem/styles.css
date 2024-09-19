@@ -1,15 +1,14 @@
 .todo-item{
-  background: #c5c5c5;
+  background: var(--primary-color);
   width: 100%;
   padding: 15px 0;
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
 
-  border: 1px solid black;
+  border: none;
   border-radius: 35px;
-  box-sizing: border-box;
-
+  box-shadow: 0 0 12px black;
   span{
     display: block;
     width: 24px;
