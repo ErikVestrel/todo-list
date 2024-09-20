@@ -69,10 +69,11 @@ function App() {
 
   return (
     <>
+    <TodoSearch/>
     <TodoCounter
     todos={count}
+    todosCompleted={''}
     />
-    <TodoSearch/>
 
     <TodoList>
       {arr.map(item => (

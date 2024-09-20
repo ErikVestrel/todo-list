@@ -1,8 +1,8 @@
 import './styles.css'
-function TodoCounter(){
+function TodoCounter({todos, completed}){
   return(
   <h1 className="todo-header">
-    has completado 5 todos de 8
+    has completado {completed || '0'} todos de {todos || '0'}
   </h1>
 
   )
